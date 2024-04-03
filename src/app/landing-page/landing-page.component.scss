@@ -1,0 +1,126 @@
+.main {
+  color: var(--primary);
+  text-align: center;
+  height: 72vh;
+  width: 100vw;
+  background-image: url(../../assets/images/east-end-community-center.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  padding-top: 110px;
+  margin-top: 0px;;
+}
+
+hr {
+  border: 1px solid var(--primary);
+  width: 404px;
+}
+
+.card {
+  max-width: 500px;
+  margin-left: 80px;
+  margin-top: 20px;
+  padding: 18px 1.5rem 18px 1.5rem;
+  text-align: left;
+  background-color: rgba(255,255,255,.75);
+  border-radius: 2px;
+  & .p1 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+  }
+  & .p2 {
+    font-size: 24px;
+    margin-top: 18px;
+    margin-bottom: 0;
+  }
+}
+
+.about-container {
+  padding: 24px;
+  margin: 0 24px;
+  min-width: 540px;
+}
+
+.about {
+  color: var(--secondary);
+  font-size: 32px;
+  padding: 24px 402px 36px 102px;
+  h1 {
+    padding-bottom: 4px;
+  }
+  p {
+    font-size: 22px;
+    letter-spacing: 1px;
+  }
+  hr {
+    width: 8.5ch;
+    border: 2px solid var(--secondary);
+    margin-bottom: 20px;
+  }
+}
+
+.club-info {
+  background: var(--secondary);
+  color: var(--primary);
+  font-size: 32px;
+  padding: 72px 24px;
+  h1 {
+    padding-bottom: 4px;
+  }
+  p {
+    font-size: 22px;
+    letter-spacing: 1px;
+  }
+  hr {
+    width: 15.5ch;
+    border: 2px solid var(--primary);
+    margin-bottom: 20px;
+  }
+}
+
+.info-container {
+  background: var(--tertiary);
+  padding: 4px;
+  margin: 0 auto;
+  min-width: 540px;
+  max-width: 1050px;
+  border: 2px solid var(--primary);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.5);
+  .inner-boarder {
+    border: 8px solid var(--primary);
+    padding: 24px;
+  }
+  * li {
+    list-style: none;
+    ul > li {
+      font-size: 12px;
+    }
+  }
+  ul {
+    position: relative;
+    padding-left: 28px;
+    * li { 
+      font-size: 20px
+    }
+  }
+  .list-details::before {
+    position: absolute;
+    left: 10px;
+    content: '-';
+    
+  }
+}
+
+.logo-container {
+  border-radius: 4px;
+}
+.logo {
+  border: 2px solid var(--primary);
+  border-radius: 4px;
+  display: block;
+  margin: 0 0 0 48px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.12), 0 1px 2px rgba(38,102,44,0.24);
+}

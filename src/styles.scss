@@ -1,7 +1,8 @@
 :root {
-  --green-primary: #26662c;
-  --cream-primary: #fefbf3;
-  --red-primary: #ff3131;
+  --primary: #14213d;
+  --primary-text: 14213d; 
+  --secondary: #fca311;
+  --tertiary: #e5e5e5;
   // --black: #141414;
   --black: #0c0c0c;
   --white: #ffffff;
@@ -13,8 +14,15 @@ Body, html, * {
 }
 
 html {
-  background-color: var(--cream-primary);
-  font-family: "Montserrat", sans-serif;
+  background-color: var(--primary);
+  // font-family: "Montserrat", sans-serif;
+  // font-optical-sizing: auto;
+  // font-style: normal; 
+  font-family: "Cabin", sans-serif;
   font-optical-sizing: auto;
+  font-weight: 400;
   font-style: normal;
+  font-variation-settings: "wdth" 100;
+
+  
 }

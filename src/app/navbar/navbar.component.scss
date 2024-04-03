@@ -1,10 +1,13 @@
 .primary-header {
-    background-color: var(--black);
-    color: var(--cream-primary);
+    background-color: var(--primary);
+    color: var(--secondary);
     height: 82px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .nav-container {
@@ -17,11 +20,11 @@
 
 .logo {
     height: 60px;
-    padding-left: 10px;
+    padding-left: 28px;
 }
 
 a {
     padding: 12px;
     text-decoration: none;
-    color: var(--cream-primary);
+    color: var(--tertiary);
 }
