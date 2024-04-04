@@ -12,6 +12,6 @@ export class NavbarComponent {
     console.log($event)
     let element = document.getElementById('about-us');
     console.log(element)
-    window.scrollTo(0, element!.offsetTop-55);
+    window.scrollTo(0, element!.offsetTop-75);
   }
 }

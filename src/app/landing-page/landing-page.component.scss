@@ -94,6 +94,9 @@
     > li { 
       font-size: 20px
     }
+    a {
+      color: var(--primary);
+    }
   }
   .list-details::before {
     position: absolute;
