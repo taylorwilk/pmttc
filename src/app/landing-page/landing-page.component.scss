@@ -36,7 +36,12 @@
   }
 }
 
+#about-us {
+  position: absolute;
+  top: -66px
+}
 .about {
+  position: relative;
   color: var(--secondary);
   font-size: 32px;
   padding: 24px 402px 36px 102px;
@@ -123,7 +128,7 @@
   }
 
   .about {
-    padding: 16px;
+    padding: 16px 16px 36px 16px;
     h1 {
       font-size: 30px;
     }
