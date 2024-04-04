@@ -2,18 +2,12 @@
   color: var(--primary);
   text-align: center;
   height: 72vh;
-  width: 100vw;
   background-image: url(../../assets/images/east-end-community-center.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   padding-top: 110px;
   margin-top: 0px;;
-}
-
-hr {
-  border: 1px solid var(--primary);
-  width: 404px;
 }
 
 .card {
@@ -36,12 +30,10 @@ hr {
     margin-top: 18px;
     margin-bottom: 0;
   }
-}
-
-.about-container {
-  padding: 24px;
-  margin: 0 24px;
-  min-width: 540px;
+  hr {
+    border: 1px solid var(--primary);
+    width: 404px;
+  }
 }
 
 .about {
@@ -72,7 +64,7 @@ hr {
   }
   p {
     font-size: 22px;
-    letter-spacing: 1px;
+    // letter-spacing: 1px;
   }
   hr {
     width: 15.5ch;
@@ -95,22 +87,18 @@ hr {
   }
   * li {
     list-style: none;
-    ul > li {
-      font-size: 12px;
-    }
   }
-  ul {
+  ul > ul {
     position: relative;
-    padding-left: 28px;
-    * li { 
+    padding-left: 22px;
+    > li { 
       font-size: 20px
     }
   }
   .list-details::before {
     position: absolute;
-    left: 10px;
+    left: 6px;
     content: '-';
-    
   }
 }
 
@@ -123,4 +111,73 @@ hr {
   display: block;
   margin: 0 0 0 48px;
   box-shadow: 0 3px 6px rgba(0,0,0,0.12), 0 1px 2px rgba(38,102,44,0.24);
+}
+
+@media screen and (max-width: 750px) {
+  .main {
+    padding-left: 16px;
+    padding-right: 16px; 
+  }
+
+  .about {
+    padding: 16px;
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 18px;
+    }
+    hr {
+      width: 118px;
+      border: 1px solid var(--secondary);
+      margin-bottom: 20px;
+    }
+  }
+
+  .club-info {
+    padding: 32px 14px
+  }
+  .info-container {
+    min-width: 0;
+    .header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .inner-boarder {
+      padding: 8px;
+    }
+    h1 {
+      font-size: 30px;
+      display: block;
+    }
+    hr {
+      display: block;
+      width: 218px;
+      margin: auto;
+      border: 1px solid var(--primary);
+      margin-bottom: 0px;
+    }
+    .list-header {
+      font-size: 24px;
+      padding-top: 12px;
+    }
+    ul > ul {
+      padding-left: 16px;
+      > li { 
+        font-size: 18px
+      }
+    }
+    .list-details::before {
+      left: 4px;
+    }
+  }
+
+  .card {
+    padding: 14px 1rem;
+    margin: 0px;
+    hr {
+      width: auto;
+    }
+  }
 }
