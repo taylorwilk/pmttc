@@ -16,6 +16,13 @@ li {
     }
   }
   a {
+    color: var(--link);
     cursor: pointer;
   }
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  padding: 16px 0;
 }
