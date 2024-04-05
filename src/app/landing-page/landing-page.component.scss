@@ -36,7 +36,7 @@
   }
 }
 
-#about-us {
+#scrollToAbout {
   position: absolute;
   top: -66px
 }
@@ -102,6 +102,10 @@
     a {
       color: var(--primary);
     }
+  }
+  .list-detail > a {
+    text-decoration: none;
+    color: var(--primary)
   }
   .list-details::before {
     position: absolute;
