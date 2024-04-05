@@ -15,5 +15,5 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'pmttc';
+  title = 'PMTTC';
 }

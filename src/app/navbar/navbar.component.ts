@@ -10,8 +10,7 @@ import { RouterModule, RouterOutlet } from '@angular/router';
 })
 export class NavbarComponent {
   onClick($event: any) {
-    
-    let element = document.getElementById('about-us');
-    window.scrollTo(0, element!.offsetTop-75);
+    let navToggle = document.getElementById('nav-toggle')
+    navToggle?.click();
   }
 }

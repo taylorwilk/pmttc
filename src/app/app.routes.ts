@@ -5,6 +5,9 @@ import { NgModule } from '@angular/core';
 
 export const routes: Routes = [
   { path: '', component: LandingPageComponent },
+  { path: 'home', component: LandingPageComponent },
+  { path: 'contact', component: LandingPageComponent },
+  { path: 'about', component: LandingPageComponent },
   { path: 'resources', component: ResourcesComponent }
 ];
 
