@@ -4,16 +4,16 @@
     <nav>
         <ul class="nav-container">
             <li>
-                <a routerLink="home" (click)="onClick($event)">HOME</a>
+                <a routerLink="home" routerLinkActive="activebutton" ariaCurrentWhenActive="page" (click)="onClick($event)">HOME</a>
             </li>
             <li>
-                <a routerLink="about" (click)="onClick($event)">ABOUT</a>
+                <a routerLink="about" routerLinkActive="activebutton" ariaCurrentWhenActive="page" (click)="onClick($event)">ABOUT</a>
             </li>
             <li>
-                <a routerLink="resources" routerLinkActive="activebutton" ariaCurrentWhenActive="page">RESOURCES</a>
+                <a routerLink="resources" routerLinkActive="activebutton" ariaCurrentWhenActive="page" (click)="onClick($event)">RESOURCES</a>
             </li>
             <li>
-                <a routerLink="contact" (click)="onClick($event)">CONTACT</a>
+                <a routerLink="contact" routerLinkActive="activebutton" ariaCurrentWhenActive="page" (click)="onClick($event)">CONTACT</a>
             </li>
             <li>
                 <a href="https://www.facebook.com/groups/1409669316590517">
