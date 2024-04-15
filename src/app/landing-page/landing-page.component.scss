@@ -132,7 +132,6 @@
   padding-top: 100px;
   position: absolute;
   visibility: visible;
-  padding-right: 400px;
   display: block;
   background-color: rgba(22,22,22,0.5); /* complimenting your modal colors */
 }
@@ -226,5 +225,10 @@
     hr {
       width: auto;
     }
+  }
+  .message-container {
+    width: 300px;
+    font-size: 18px;
+    padding: 22px;
   }
 }
