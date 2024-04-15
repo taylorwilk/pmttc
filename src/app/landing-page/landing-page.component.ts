@@ -15,4 +15,12 @@ export class LandingPageComponent implements OnInit{
     let path = this.route.snapshot.url[0]?.path
     document.getElementById(path)?.scrollIntoView()
   }
+
+  onClick() {
+    console.log('clicked')
+    var modal = document.getElementById('modal')
+    if (modal !== null) {
+      modal.style.display = 'none'
+    }
+  } 
 }
